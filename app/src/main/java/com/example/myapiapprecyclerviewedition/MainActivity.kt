@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
+import androidx.recyclerview.widget.DividerItemDecoration
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import okhttp3.Headers
+import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     var tkn = "cc1eIk6k59pzcdBdZg6TE2vuVBeD18YzY3OujmNlgn1PBcPswVCzUUU2USQM"
@@ -65,13 +67,14 @@ class MainActivity : AppCompatActivity() {
     private fun getPlayerImageURL() {
 
         val client = AsyncHttpClient()
-
+        val random = Random.nextInt(1,4)
+        val n = 20 * random
         client["https://api.sportsdata.io/v3/nba/scores/json/Players?key=b32947d1bc404b5db05091ad3cc81dd3", object : JsonHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Headers, json: JsonHttpResponseHandler.JSON) {
                 Log.d("Player", "response successful$json")
 
 
-                for (i in 0 until 20) {
+                for (i in n-20 until n) {
                     val playerImageArray = json.jsonArray.getJSONObject(i).getString("PhotoUrl")
                     val name = json.jsonArray.getJSONObject(i).getString("DraftKingsName")
                     val team = json.jsonArray.getJSONObject(i).getString("Team")
@@ -83,6 +86,7 @@ class MainActivity : AppCompatActivity() {
                 val adapter = PlayerAdapter(playerList)
                 rvPlayer.adapter = adapter
                 rvPlayer.layoutManager = LinearLayoutManager(this@MainActivity)
+                rvPlayer.addItemDecoration(DividerItemDecoration(this@MainActivity, DividerItemDecoration.VERTICAL))
             }
             override fun onFailure(
                 statusCode: Int,
