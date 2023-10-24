@@ -16,7 +16,7 @@ import okhttp3.Headers
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
-    var tkn = "cc1eIk6k59pzcdBdZg6TE2vuVBeD18YzY3OujmNlgn1PBcPswVCzUUU2USQM"
+    var tkn = ""
 
     private lateinit var playerList: MutableList<PlayerDetails>
     private lateinit var rvPlayer: RecyclerView
