@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="412dp"
         android:layout_height="45dp"
-        android:text="TextView"
+        android:text="fantasy basketball"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
