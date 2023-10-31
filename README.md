@@ -8,7 +8,8 @@ Time spent: **4** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
+**Your Next Pick** is an android app that **displays a scrollable list of NBA players and their teams from the [SportsData API](https://sportsdata.io/developers/api-documentation/nba)**
+
 
 If I had to describe this project in three (3) emojis, they would be: **🎨🤔🧑🏽‍🎨**
 
@@ -37,14 +38,9 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/xUwWyVp.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
-
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
+GIF created with **[ScreenToGif](https://www.screentogif.com/) for Windows**
 
 ## Notes
 
