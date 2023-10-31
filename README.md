@@ -27,7 +27,7 @@ The following REQUIRED features are completed:
 
 The following STRETCH features are implemented:
 
-- [ ] Update the night theme to use different versions of styles when in dark mode
+- [x] Update the night theme to use different versions of styles when in dark mode
 - [ ] Use different drawables when in dark mode
 
 The following EXTRA features are implemented:
