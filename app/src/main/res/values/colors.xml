@@ -4,5 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="midnightBlue">#0e2240</color>
     <color name="red">#8b2131</color>
-    <color name="yellow">#fec524</color>
+    <color name="yellow">#002b5c</color>
+    <color name="wine">#771621</color>
+    <color name="lightblue">#1d428a</color>
+    <color name="purple">#1d1160</color>
 </resources>

@@ -23,7 +23,8 @@
         android:layout_height="20dp"
         android:layout_marginStart="75dp"
         android:layout_marginBottom="20dp"
-        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.PlayerInfo"
+        android:text="Full Name"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/Team"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,11 +39,13 @@
         android:layout_height="20dp"
         android:layout_marginStart="75dp"
         android:layout_marginBottom="28dp"
-        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.PlayerInfo"
+        android:text="Basketball Team"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/player_image" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,13 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:statusBarColor">@color/red</item>
+        <item name="android:fontFamily">@font/lato</item>
 <!--        <item name="android:fontFamily">@font/press_start_2p</item>-->
+    </style>
+    <style name="TextAppearance.PlayerInfo" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:padding">8dp</item>
     </style>
 
     <style name="Theme.MyAPIAppRecyclerViewEdition" parent="Base.Theme.MyAPIAppRecyclerViewEdition" />
